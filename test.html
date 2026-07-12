@@ -225,8 +225,9 @@
             </div> -->
 
             <div class="swiper mySwiper">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-wrapper" style="margin-left: 60px">
+              <div class="swiper-wrapper">
+                <div class="swiper-button-prev"></div>
+
                 <div class="swiper-slide">
                   <div class="product_box">
                     <a href="">
@@ -346,6 +347,82 @@
                       <div
                         class="product_img_box"
                         style="
+                          background: url(./public/images/products/iRobot.png);
+                          background-size: cover;
+                        "
+                      >
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="product_content_box">
+                      <span class="pruduct_title">Sony</span>
+                      <a href="">
+                        <p class="product_desc">
+                          iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty
+                          Robot.
+                        </p>
+                      </a>
+                      <div class="review_box">
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <span>3,014 reviews</span>
+                      </div>
+                      <div class="price_box">
+                        <strong>$399</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product_box">
+                    <a href="">
+                      <div
+                        class="product_img_box"
+                        style="
+                          background: url(./public/images/products/iRobot.png);
+                          background-size: cover;
+                        "
+                      >
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="product_content_box">
+                      <span class="pruduct_title">Sony</span>
+                      <a href="">
+                        <p class="product_desc">
+                          iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty
+                          Robot.
+                        </p>
+                      </a>
+                      <div class="review_box">
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <img src="./public/images/icons/review.svg" alt="" />
+                        <span>3,014 reviews</span>
+                      </div>
+                      <div class="price_box">
+                        <strong>$399</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="product_box">
+                    <a href="">
+                      <div
+                        class="product_img_box"
+                        style="
                           background: url(./public/images/products/dyson.png);
                           background-size: cover;
                         "
@@ -377,11 +454,11 @@
                     </div>
                   </div>
                 </div>
+                <div class="swiper-button-next"></div>
               </div>
-              <div class="swiper-button-next"></div>
               <!-- <div class="next_prev_box" style="transform: scaleX(-1)">
-              <img src="./public/images/icons/next.svg" alt="" />
-            </div> -->
+                <img src="./public/images/icons/next.svg" alt="" />
+              </div> -->
             </div>
           </div>
           <div class="pagionation_box">
@@ -826,18 +903,18 @@
           </div>
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/swiper@14/swiper-bundle.min.js"></script>
-
-      <script>
-        const swiper = new Swiper(".mySwiper", {
-          slidesPerView: 3,
-          spaceBetween: 20,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      </script>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 15,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
